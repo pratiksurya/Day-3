@@ -1,3 +1,5 @@
+//Display sum of the odd numbers and the even numbers from a lower bound to an upper bound.
+
 package question_2;
 
 import java.util.Scanner;
