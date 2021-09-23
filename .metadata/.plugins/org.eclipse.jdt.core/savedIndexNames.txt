@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+F:\Concept of Programming\3.Lab\Assignments\Day 3\.metadata\.plugins\org.eclipse.jdt.core
+2302680880.index
