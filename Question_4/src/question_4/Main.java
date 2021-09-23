@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int num,avg,sum=0,product=1,counter=0;
-		char ch='z';	
+		char ch;	
 		do {
 			System.out.println("Enter Number: ");
 			num=sc.nextInt();
