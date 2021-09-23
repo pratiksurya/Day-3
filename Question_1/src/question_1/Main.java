@@ -1,3 +1,5 @@
+//Program to display addition of numbers from a lower bound to an upper bound using a while-loop.
+
 package question_1;
 
 import java.util.Scanner;
