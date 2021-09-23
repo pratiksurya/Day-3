@@ -1,3 +1,10 @@
+// Accept 20 integer inputs from user and print the following: 
+// number of positive numbers , 
+// number of negative numbers 
+// number of odd numbers , 
+// number of even numbers
+// number of 0s.
+
 package question_5;
 
 import java.util.Scanner;
@@ -27,7 +34,7 @@ public class Main {
 		System.out.println("No of Negative Number: "+nCounter);
 		System.out.println("No of Even Number: "+eCounter);
 		System.out.println("No of Odd Number: "+oCounter);
-		System.out.println("No of Zeros:"+counter);
+		System.out.println("No of Zeros: "+counter);
 
 	}
 
