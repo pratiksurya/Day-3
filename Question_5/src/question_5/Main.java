@@ -63,7 +63,6 @@ public class Main {
 		System.out.println("No of Negative Number: "+nCounter);
 		System.out.println("No of Even Number: "+eCounter);
 		System.out.println("No of Odd Number: "+oCounter);
-<<<<<<< Updated upstream
 		System.out.println("No of Zeros: "+counter);
 
 
