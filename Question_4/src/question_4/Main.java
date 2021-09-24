@@ -18,7 +18,11 @@ public class Main {
 		char c;
 		
 		
+<<<<<<< Updated upstream
 //	1.Using String
+=======
+//		1.Using String
+>>>>>>> Stashed changes
 		String ch;	
 		do {
 			System.out.println("Enter Number: ");
@@ -36,7 +40,11 @@ public class Main {
 			product=product*num;
 			
 			
+<<<<<<< Updated upstream
 		System.out.print("Enter q to Exit or ");
+=======
+		System.out.print("Enter q to Exit else ");
+>>>>>>> Stashed changes
 			
 		}while(c!='q');
 		avg=(sum/(float)counter);
@@ -48,7 +56,11 @@ public class Main {
 		
 
 		
+<<<<<<< Updated upstream
 //	2.Without String
+=======
+//		2.Without String
+>>>>>>> Stashed changes
 //		do {
 //			System.out.println("Enter Number: ");
 //			num=sc.nextInt();

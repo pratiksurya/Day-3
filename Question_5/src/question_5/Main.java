@@ -17,24 +17,57 @@ public class Main {
 		for(int i=1;i<=20;i++) {
 			System.out.println("Enter The Number: ");
 			num=sc.nextInt();
-			if(num<0) {
-				nCounter++;
+			if(num==0)//Check if number is Zero 
+			{
+				
+				
+				counter++;
 			}
-			else{
-				pCounter++;
-				if(num%2==0) {
+
+			else //If number is not zero
+			{
+				if(Math.abs(num)%2==0)//Checks if Numeber(both +ve and -ve ) is Even
+				{
 					eCounter++;
+					if(num>0) //Checks if Number is Positive
+					{
+						pCounter++;
+					}
+					
+					
+					else //Checks if Number is Negative
+					{
+						nCounter++;
+					}
 				}
-				else {
+				
+				
+				else //If Number is not Even i.e. Number is ODD
+				{
 					oCounter++;
-				}	
+					eCounter++;
+					if(num>0) //Checks if Number is Positive
+					{
+						pCounter++;
+					}
+					else //Checks if Number is Negative
+					{
+						nCounter++;
+					}
+
+				}
 			}
+
 		}
-		System.out.println("NO of Positive Number: "+pCounter);
+		System.out.println("No of Positive Number: "+pCounter);
 		System.out.println("No of Negative Number: "+nCounter);
 		System.out.println("No of Even Number: "+eCounter);
 		System.out.println("No of Odd Number: "+oCounter);
+<<<<<<< Updated upstream
 		System.out.println("No of Zeros: "+counter);
+=======
+		System.out.println("No of Zeros:"+counter);
+>>>>>>> Stashed changes
 
 	}
 
